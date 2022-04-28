@@ -1,0 +1,68 @@
+﻿name,category
+# days smoked cigs during past 30 days,smoking behavior
+a-Tocopherol(ug/dL),nutrients
+Adult,AC
+Alcohol (gm),food component recall
+Anemia,AN
+b-cryptoxanthin(ug/dL),nutrients
+Beta-cryptoxanthin (mcg),food component recall
+Cadmium (ug/L),heavy metals
+Caffeine (mg),food component recall
+Calcium (mg),food component recall
+Carbohydrate (gm),food component recall
+Childern,AC
+cis-b-carotene(ug/dL),nutrients
+Combined Lutein/zeaxanthin (ug/dL),nutrients
+COPPER_mg,supplement use
+Cotinine (ng/mL),cotinine
+Current Cigarette Smoker?,smoking behavior
+days drink in year,alcohol use
+Dietary fiber (gm),food component recall
+Do you now smoke cigarettes...,smoking behavior
+Does anyone smoke in home?,smoking family
+DSDCOUNT,supplement use
+Folate,AN
+"Folate, DFE (mcg)",food component recall
+"Folate, RBC (ng/mL RBC)",nutrients
+"Folate, serum (ng/mL)",nutrients
+Folic acid (mcg),food component recall
+FOLIC_ACID_mcg,supplement use
+Food folate (mcg),food component recall
+g-tocopherol(ug/dL),nutrients
+Hemoglobin,AN
+IDA,AN
+Iron,AN
+Iron (mg),food component recall
+IRON_mg,supplement use
+"Iron, Frozen Serum (ug/dL)",nutrients
+Lead (ug/dL),heavy metals
+Magnesium (mg),food component recall
+Mono-benzyl phthalate,phthalates
+Niacin (mg),food component recall
+Phosphorus (mg),food component recall
+PHOSPHORUS_mg,supplement use
+Potassium (mg),food component recall
+Protein (gm),food component recall
+Retinol(ug/dL),nutrients
+Retinyl palmitate(ug/dL),nutrients
+Retinyl stearate(ug/dL),nutrients
+Riboflavin (Vitamin B2) (mg),food component recall
+RIBOFLAVIN_mg,supplement use
+Selenium (mcg),food component recall
+Smoked at least 100 cigarettes in life,smoking behavior
+taking_birth_control,pharmaceutical
+Thiamin (Vitamin B1) (mg),food component recall
+THIAMIN_mg,supplement use
+total supplement count,supplement use
+trans-b-carotene(ug/dL),nutrients
+UA,AN
+VB12,AN
+Vitamin B12 (mcg),food component recall
+"Vitamin B12, serum (pg/mL)",nutrients
+Vitamin B6 (mg),food component recall
+Vitamin C (mg),food component recall
+Vitamin D (ng/mL),nutrients
+VITAMIN_A_IU,supplement use
+VITAMIN_B_12_mcg,supplement use
+VITAMIN_B_6_mg,supplement use
+Zinc (mg),food component recall

@@ -1,0 +1,20 @@
+Variable,Pheno,Beta,category,Population
+a-Tocopherol(ug/dL),Folate,0.000113036,nutrients,Children
+a-Tocopherol(ug/dL),VB12,0.000245159,nutrients,Children
+Calcium (mg),VB12,0.000129075,food component recall,Children
+cis-b-carotene(ug/dL),VB12,0.065611308,nutrients,Children
+Folate RBC (ng/mL RBC),VB12,0.000753416,nutrients,Children
+Folate serum (ng/mL),VB12,0.005925424,nutrients,Children
+FOLIC_ACID_mcg,Iron,0.005540467,supplement use,Children
+IRON_mg,Iron,0.132361688,supplement use,Children
+Iron Frozen Serum (ug/dL),Hemoglobin,0.005769792,nutrients,Children
+Retinol(ug/dL),Hemoglobin,0.02461308,nutrients,Children
+Retinol(ug/dL),Iron,0.849084095,nutrients,Children
+Riboflavin (Vitamin B2) (mg),VB12,0.073310618,food component recall,Children
+RIBOFLAVIN_mg,Iron,0.388329549,supplement use,Children
+THIAMIN_mg,Iron,0.362734098,supplement use,Children
+Vitamin B12 serum (pg/mL),Folate,0.000151913,nutrients,Children
+Vitamin D (ng/mL),Folate,0.00390713,nutrients,Children
+VITAMIN_A_IU,Iron,0.00054366,supplement use,Children
+VITAMIN_B_12_mcg,Iron,0.252889542,supplement use,Children
+VITAMIN_B_6_mg,Iron,0.275872526,supplement use,Children

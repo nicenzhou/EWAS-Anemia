@@ -1,0 +1,88 @@
+Variable,Pheno,Beta,category,Population
+# days smoked cigs during past 30 days,Folate,-0.005407267,smoking behavior,Adults
+a-Tocopherol(ug/dL),Hemoglobin,0.000203597,nutrients,Adults
+a-Tocopherol(ug/dL),VB12,0.000175019,nutrients,Adults
+a-Tocopherol(ug/dL),Folate,0.000175403,nutrients,Adults
+Alcohol (gm),Iron,0.202090487,food component recall,Adults
+b-cryptoxanthin(ug/dL),Folate,0.006879717,nutrients,Adults
+Beta-cryptoxanthin (mcg),Folate,0.000149062,food component recall,Adults
+Cadmium (ug/L),Hemoglobin,0.257937271,heavy metals,Adults
+Cadmium (ug/L),Folate,-0.065595724,heavy metals,Adults
+Caffeine (mg),Folate,-0.000184952,food component recall,Adults
+Calcium (mg),VB12,0.000118161,food component recall,Adults
+Calcium (mg),Folate,9.76E-05,food component recall,Adults
+Carbohydrate (gm),Folate,0.000286228,food component recall,Adults
+cis-b-carotene(ug/dL),VB12,0.071461728,nutrients,Adults
+cis-b-carotene(ug/dL),Folate,0.040714723,nutrients,Adults
+Combined Lutein/zeaxanthin (ug/dL),Folate,0.003454854,nutrients,Adults
+COPPER_mg,Hemoglobin,0.039955033,supplement use,Adults
+Cotinine (ng/mL),Folate,-0.000504043,cotinine,Adults
+Cotinine (ng/mL),VB12,-0.000312715,cotinine,Adults
+Current Cigarette Smoker?,Folate,0.01,smoking behavior,Adults
+days drink in year,Iron,0.041135278,alcohol use,Adults
+Dietary fiber (gm),Folate,0.007186356,food component recall,Adults
+Dietary fiber (gm),VB12,0.00539227,food component recall,Adults
+Do you now smoke cigarettes...,Folate,0.01,smoking behavior,Adults
+Does anyone smoke in home?,Folate,0.01,smoking family,Adults
+Does anyone smoke in home?,VB12,0.01,smoking family,Adults
+DSDCOUNT,VB12,0.057901601,supplement use,Adults
+Folate DFE (mcg),Folate,0.000214845,food component recall,Adults
+Folate RBC (ng/mL RBC),Anemia,0.003905168,nutrients,Adults
+Folate RBC (ng/mL RBC),UA,0.003449758,nutrients,Adults
+Folate RBC (ng/mL RBC),VB12,0.001062722,nutrients,Adults
+Folate RBC (ng/mL RBC),IDA,0.004821775,nutrients,Adults
+Folic acid (mcg),Folate,0.000359448,food component recall,Adults
+Food folate (mcg),Folate,0.000450117,food component recall,Adults
+g-tocopherol(ug/dL),Folate,-0.000423591,nutrients,Adults
+g-tocopherol(ug/dL),Hemoglobin,0.000610725,nutrients,Adults
+g-tocopherol(ug/dL),UA,-0.002083084,nutrients,Adults
+g-tocopherol(ug/dL),Iron,-0.027213628,nutrients,Adults
+g-tocopherol(ug/dL),VB12,-0.000589673,nutrients,Adults
+Iron (mg),Folate,0.008672197,food component recall,Adults
+Iron (mg),VB12,0.005884104,food component recall,Adults
+Iron Frozen Serum (ug/dL),Anemia,-0.079212494,nutrients,Adults
+Iron Frozen Serum (ug/dL),Hemoglobin,0.011181047,nutrients,Adults
+Iron Frozen Serum (ug/dL),IDA,-0.15938649,nutrients,Adults
+Lead (ug/dL),Folate,-0.021715879,heavy metals,Adults
+Magnesium (mg),Folate,0.000410224,food component recall,Adults
+Magnesium (mg),VB12,0.000444106,food component recall,Adults
+Mono-benzyl phthalate,Folate,-2.00E-05,phthalates,Adults
+Mono-benzyl phthalate,VB12,-2.77E-05,phthalates,Adults
+Niacin (mg),VB12,0.00309089,food component recall,Adults
+Niacin (mg),Folate,0.003679393,food component recall,Adults
+Phosphorus (mg),VB12,8.66E-05,food component recall,Adults
+Phosphorus (mg),Folate,7.07E-05,food component recall,Adults
+PHOSPHORUS_mg,Hemoglobin,0.000549169,supplement use,Adults
+Potassium (mg),VB12,4.34E-05,food component recall,Adults
+Potassium (mg),Folate,4.36E-05,food component recall,Adults
+Protein (gm),VB12,0.001079862,food component recall,Adults
+Protein (gm),Folate,0.000740304,food component recall,Adults
+Retinol(ug/dL),Iron,0.369883286,nutrients,Adults
+Retinol(ug/dL),UA,-0.025227794,nutrients,Adults
+Retinol(ug/dL),Hemoglobin,0.008614301,nutrients,Adults
+Retinol(ug/dL),IDA,-0.053589367,nutrients,Adults
+Retinol(ug/dL),Folate,0.00440859,nutrients,Adults
+Retinyl palmitate(ug/dL),VB12,0.030819544,nutrients,Adults
+Retinyl palmitate(ug/dL),Folate,0.032854737,nutrients,Adults
+Retinyl stearate(ug/dL),Folate,0.121587925,nutrients,Adults
+Retinyl stearate(ug/dL),VB12,0.123318082,nutrients,Adults
+Riboflavin (Vitamin B2) (mg),Folate,0.050061712,food component recall,Adults
+Riboflavin (Vitamin B2) (mg),VB12,0.057348285,food component recall,Adults
+Selenium (mcg),Folate,0.000565275,food component recall,Adults
+Smoked at least 100 cigarettes in life,Folate,0.01,smoking behavior,Adults
+taking_birth_control,VB12,0.01,pharmaceutical,Adults
+Thiamin (Vitamin B1) (mg),VB12,0.057146002,food component recall,Adults
+Thiamin (Vitamin B1) (mg),Folate,0.069019567,food component recall,Adults
+total supplement count,Anemia,0.205251582,supplement use,Adults
+total supplement count,UA,0.230111018,supplement use,Adults
+total supplement count,Folate,0.052676277,supplement use,Adults
+total supplement count,VB12,0.065645899,supplement use,Adults
+trans-b-carotene(ug/dL),VB12,0.004603322,nutrients,Adults
+trans-b-carotene(ug/dL),Folate,0.002825313,nutrients,Adults
+Vitamin B12 (mcg),Folate,0.004716956,food component recall,Adults
+Vitamin B6 (mg),Folate,0.052270308,food component recall,Adults
+Vitamin B6 (mg),VB12,0.056666173,food component recall,Adults
+Vitamin C (mg),Folate,0.000569853,food component recall,Adults
+Vitamin D (ng/mL),VB12,0.007479842,nutrients,Adults
+Vitamin D (ng/mL),Folate,0.007605015,nutrients,Adults
+Zinc (mg),Folate,0.004152741,food component recall,Adults
