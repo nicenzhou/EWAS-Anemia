@@ -1,0 +1,58 @@
+group	individual	value
+Anemia	heavy metals	5
+Anemia	food component recall	55
+Anemia	NA	NA
+Anemia	NA	NA
+Anemia	NA	NA
+Folate	diakyl	5
+Folate	food component recall	5
+Folate	heavy metals	5
+Folate	pesticides	10
+Folate	phthalates	10
+Folate	supplement use	10
+Folate	hydrocarbons	15
+Folate	pcbs	20
+Folate	nutrients	25
+Folate	NA	NA
+Folate	nutrients	15
+Folate	NA	NA
+Folate	NA	NA
+Folate	NA	NA
+Hemoglobin	heavy metals	5
+Hemoglobin	hydrocarbons	5
+Hemoglobin	phytoestrogens	5
+Hemoglobin	diakyl	10
+Hemoglobin	nutrients	10
+Hemoglobin	phthalates	10
+Hemoglobin	pesticides	15
+Hemoglobin	supplement use	40
+Hemoglobin	food component recall	45
+Hemoglobin	pcbs	65
+Hemoglobin	NA	NA
+Hemoglobin	nutrients	10
+Hemoglobin	NA	NA
+Hemoglobin	NA	NA
+Hemoglobin	NA	NA
+Iron	cotinine	5
+Iron	food component recall	5
+Iron	phthalates	5
+Iron	nutrients	10
+Iron	supplement use	45
+Iron	NA	NA
+Iron	nutrients	5
+Iron	supplement use	35
+Iron	NA	NA
+Iron	NA	NA
+Iron	NA	NA
+VB12	diakyl	5
+VB12	heavy metals	5
+VB12	phthalates	5
+VB12	pesticides	10
+VB12	food component recall	15
+VB12	nutrients	25
+VB12	NA	NA
+VB12	food component recall	10
+VB12	nutrients	20
+VB12	NA	NA
+VB12	NA	NA
+VB12	NA	NA

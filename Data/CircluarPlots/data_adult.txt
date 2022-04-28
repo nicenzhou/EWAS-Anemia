@@ -1,0 +1,109 @@
+group	individual	value
+Anemia	supplement use	2.5
+Anemia	nutrients	7.5
+Anemia	NA	NA
+Anemia	supplement use	2.5
+Anemia	nutrients	5
+Anemia	NA	NA
+Anemia	NA	NA
+Anemia	NA	NA
+CDA	supplement use	2.5
+CDA	nutrients	7.5
+CDA	NA	NA
+CDA	NA	NA
+CDA	NA	NA
+Folate	alcohol use	2.5
+Folate	cotinine	2.5
+Folate	furans	2.5
+Folate	pcbs	2.5
+Folate	smoking family	2.5
+Folate	pesticides	5
+Folate	phthalates	5
+Folate	occupation	7.5
+Folate	supplement use	7.5
+Folate	hydrocarbons	10
+Folate	smoking behavior	10
+Folate	heavy metals	12.5
+Folate	nutrients	25
+Folate	food component recall	62.5
+Folate	NA	NA
+Folate	cotinine	2.5
+Folate	phthalates	2.5
+Folate	smoking family	2.5
+Folate	supplement use	2.5
+Folate	heavy metals	5
+Folate	smoking behavior	10
+Folate	nutrients	25
+Folate	food component recall	52.5
+Folate	NA	NA
+Folate	NA	NA
+Folate	NA	NA
+Hemoglobin	diakyl	2.5
+Hemoglobin	food component recall	2.5
+Hemoglobin	furans	2.5
+Hemoglobin	phthalates	2.5
+Hemoglobin	phytoestrogens	2.5
+Hemoglobin	volatile compounds	2.5
+Hemoglobin	bacterial infection	5
+Hemoglobin	heavy metals	7.5
+Hemoglobin	supplement use	7.5
+Hemoglobin	nutrients	10
+Hemoglobin	NA	NA
+Hemoglobin	heavy metals	2.5
+Hemoglobin	supplement use	5
+Hemoglobin	nutrients	10
+Hemoglobin	NA	NA
+Hemoglobin	NA	NA
+Hemoglobin	NA	NA
+IDA	food component recall	2.5
+IDA	nutrients	7.5
+IDA	NA	NA
+IDA	nutrients	7.5
+IDA	NA	NA
+IDA	NA	NA
+IDA	NA	NA
+Iron	alcohol use	2.5
+Iron	pesticides	2.5
+Iron	food component recall	5
+Iron	nutrients	5
+Iron	NA	NA
+Iron	alcohol use	2.5
+Iron	food component recall	2.5
+Iron	nutrients	5
+Iron	NA	NA
+Iron	NA	NA
+Iron	NA	NA
+UA	supplement use	2.5
+UA	nutrients	7.5
+UA	NA	NA
+UA	supplement use	2.5
+UA	nutrients	7.5
+UA	NA	NA
+UA	NA	NA
+UA	NA	NA
+VB12	cotinine	2.5
+VB12	hydrocarbons	2.5
+VB12	occupation	2.5
+VB12	reproductive health	2.5
+VB12	smoking family	2.5
+VB12	volatile compounds	2.5
+VB12	alcohol use	5
+VB12	pesticides	5
+VB12	phthalates	5
+VB12	pcbs	7.5
+VB12	phytoestrogens	7.5
+VB12	heavy metals	12.5
+VB12	nutrients	25
+VB12	supplement use	27.5
+VB12	food component recall	35
+VB12	NA	NA
+VB12	cotinine	2.5
+VB12	phthalates	2.5
+VB12	reproductive health	2.5
+VB12	smoking family	2.5
+VB12	supplement use	5
+VB12	nutrients	20
+VB12	food component recall	27.5
+VB12	NA	NA
+VB12	NA	NA
+VB12	NA	NA
