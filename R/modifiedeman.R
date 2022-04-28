@@ -1,18 +1,6 @@
-All_results_rep_adults <- read.delim("~/Desktop/Anemia/All_results_rep_adults.txt")
-All_results_dis_adults <- read.delim("~/Desktop/Anemia/All_results_dis_adults.txt")
-All_results = rbind.data.frame(All_results_dis_adults,All_results_rep_adults)
-Rep_Results = All_results_rep_adults[All_results_rep_adults$Pheno == "Anemia" | All_results_rep_adults$Pheno == "IDA" | All_results_rep_adults$Pheno == "UA",]
-Dis_Results = All_results_dis_adults[All_results_dis_adults$Pheno == "Anemia" | All_results_dis_adults$Pheno == "IDA" | All_results_dis_adults$Pheno == "UA",]
 
-VarDescription <- read.csv("~/Desktop/Anemia/Data/VarDescription.csv")
-VarDescriptionR = VarDescription[VarDescription$series == "2005-2006",]
-VarDesc = VarDescriptionR[,c("var","var_desc")]
-
-RepDesc_results = merge.data.frame(Rep_Results,VarDesc,by.x="Variable",by.y="var")
-DisDesc_results = merge.data.frame(Dis_Results,VarDesc,by.x="Variable",by.y="var")
-Desc_results = rbind.data.frame(DisDesc_results,RepDesc_results)
-
-eman <- function (d, ewas = TRUE, groups = NULL, line = NULL, title = NULL, 
+library(ggplot2)
+modifiedeman <- function (d, ewas = TRUE, groups = NULL, line = NULL, title = NULL, 
                   morecolors = FALSE, file = "eman", hgt = 7, wi = 12, res = 300) 
 {
   t1 <- Sys.time()
@@ -147,22 +135,4 @@ eman <- function (d, ewas = TRUE, groups = NULL, line = NULL, title = NULL,
                                                        t1, units = "secs")), 6), "secs", sep = " "))
   return(p)
 }
-
-VarCat_nopf <- read.delim("/Users/Nicen/Desktop/Anemia/Data/VarCat_nopf.txt")
-RepDesc_results$Shape = ifelse(RepDesc_results$Beta < 0,"Negative","Positive")
-library(stringr)
-RepDesc_results$label = str_c(RepDesc_results$Pheno,": ",RepDesc_results$var_desc)
-RepDesc_results$var = str_c(RepDesc_results$Variable,"_",RepDesc_results$Pheno)
-RepDesc_results_eman = RepDesc_results[,c(21,13,19,20)]
-colnames(RepDesc_results_eman) = c("Variable","pvalue","Shape", "Label")
-VarCat_nopf = RepDesc_results[,c(21,15)]
-colnames(VarCat_nopf) = c("Variable","Category")
-
-library(ggplot2)
-mplot_adult <- eman(RepDesc_results_eman, ewas = FALSE, groups = VarCat_nopf, morecolors = FALSE, hgt = 7, wi = 12, res = 300)
-mplot_adult
-
-
-
-
 
