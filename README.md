@@ -2,6 +2,8 @@
 
 These data files are used to support the findings in the paper 'Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys'.
 
+Anemia, a global health problem, can lead to chronic illness in adults and may be fatal in children and the elderly. While some dietary factors and heavy metals are known risk factors for anemia, there are no environment-wide studies of anemia. Our goal was to identify the environment-wide risk factors for anemia. We evaluated general anemia in children and adults and further classified anemia as a) iron, vitamin B12, or folate deficiency anemia; b) anemia in general chronic diseases; and c) anemia in chronic kidney disease. Environment-wide association studies (EWAS) were performed to identify novel environmental risk factors of anemia in discovery and replication subsets of the National Health and Nutrition Examination Surveys (NHANES). We identified and replicated 106 potential environmental risk factors for anemia. In children, serum iron was associated with folic acid supplements and vitamin A supplements. Multiple polychlorinated biphenyls (PCBs) and γ-hexachlorocyclohexane were also associated with hemoglobin concentration and red blood cell folate concentration for children from the discovery analysis (1999–2002). As expected, serum iron was the top exposure associated with general anemia for adults. Cadmium was associated with adult hemoglobin levels, as were vitamin Bs, micronutrients, smoking, and alcohol consumption. Further, decreased level of multiple vitamins, including vitamin A, vitamin Es and multiple vitamin Bs, were associated with anemia in adults. Use of tobacco and alcohol was also found to be associated with red blood cell folate and serum iron levels. This is the first EWAS of anemia, providing insights into the environmental etiology of anemia risk in children and adults. These results may lead to the development of public health recommendations to mitigate anemia risk factors. 
+
 ## Data and Analysis
 ### 1. National Health and Nutrition Examination Survey (NHANES)
 The [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) are conducted by the Centers for Disease Control and Prevention (CDC) to evaluate the health and nutritional status of the US population ([Cousins 2014](); [Le 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166635); [McFarlane et al. 2008](https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0272638608000073?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0272638608000073%3Fshowall%3Dtrue&referrer=https:%2F%2Fpubmed.ncbi.nlm.nih.gov%2F); [Patel et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2747286/)). The goal of NHANES is to identify risk factors for prevalent diseases to aid in developing effective public health policies. The demographic information, dietary recalls, health surveys, toxin exposures, and laboratory measurements of the participants were collected by interviews and physical examinations at home or at a mobile exam center (Cousins 2014). The current study including 41,474 individuals and 1,191 variables before quality control (QC) from survey years 1999–2006 was pulled from the unified dataset ([Patel et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010746)).
@@ -10,37 +12,27 @@ The [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) are conducted by the Cen
 This analysis requires to use [R](https://www.r-project.org/) and [qulity-control (QC) algorithm](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full)/[CLARITE package in R](https://github.com/HallLab/clarite) for Environment-wide association study (EWAS) that was pulished before. All other required packages were listed in the main code files. The [unified NHANES dataset](https://pic-sure.org/products/nhanes-unified-dataset) for year 1999-2006 are required. 
 
 ### 3. Codes
-It contains a [R Markdown file](Codes/EWAS_Anemia_Notebook.Rmd) to perform all the analyses and two seperate R files for generating the Mahanttan and Hudson Plots based on the results. The raw files for plotting the network plot were also stored in the codes file which can be read by using [Cytoscape](https://cytoscape.org/).
+It contains a [R Markdown file](Codes/EWAS_Anemia_Notebook.Rmd) to perform all the analyses and two seperate R files for generating the [Mahanttan](Codes/ManhattanPlots_Revised.R) and [Hudson](Codes/HudsonPlots_Revised.R) Plots based on the results. The raw files for plotting the network plot were also stored in the file named Cytoscape for Network which can be read by using [Cytoscape](https://cytoscape.org/).
 
 ### 4. Data
-All data, including main table, download SAS files, files for survery weight and plots, and files for variable desciptions, except the original unified data (more than 100 MB) were uploaded into Data folder. 
+All data, including [main table](Data/Main Table/MainTable_keepvar_over18.tsv), download SAS files, files for survery weight and plots, and files for variable desciptions, except the original unified data (more than 100 MB) were uploaded into Data folder. 
 
 ### 5. Plots
 It contains 1. the original plots that were generated by using eman function in CALRITE package, 2. the labeled plots with annotations for the significant results, and 3. modified Manhattan plot and Hudson plots for the manuscripts. 
 
 ### 6. R
-It contains two modified R scripts for stroing the modified functions to plot the modified Manhattan and Hudson Plots. 
+It contains two modified R scripts for stroing only the modified functions to plot the modified [Manhattan](R/modifiedeman.R) and [Hudson](R/modifiedhudson.R) Plots. 
 
 ### 7. Results
 All the results were uploaded to here for each EWAS.
 
-## Pulication
+## Citation
+### EWAS Anemia
+Jiayan Zhou, Nicole Palmiero, Kristin Passero, John R McGuigan, Tomás González Zarzar, K. Sandeep Prabhu, and Molly A. Hall. 2022. Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys. *In preparation.*
 
-### Abstract
-#### Background:
-Anemia, a global health problem, can lead to chronic illness in adults and may be fatal in children and the elderly. While some dietary factors and heavy metals are known risk factors for anemia, there are no environment-wide studies of anemia.
+### CLARITE
+Lucas AM, Palmiero NE, McGuigan J, Passero K, Zhou J, Orie D, et al. 2019. CLARITE Facilitates the Quality Control and Analysis Process for EWAS of Metabolic-Related Traits. *Front Genet* 10; [doi:10.3389/fgene.2019.01240](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full).
 
-#### Objectives:
-Our goal was to identify the environment-wide risk factors for anemia. 
+Zhou J, Passero K, Palmiero NE, Müller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Investigation of gene-gene interactions in cardiac traits and serum fatty acid levels in the LURIC Health Study. *PLoS One* 15:e0238304; [doi:10.1371/journal.pone.0238304](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0238304).
 
-#### Methods:
-We evaluated general anemia in children and adults and further classified anemia as a) iron, vitamin B12, or folate deficiency anemia; b) anemia in general chronic diseases; and c) anemia in chronic kidney disease. Environment-wide association studies (EWAS) were performed to identify novel environmental risk factors of anemia in discovery and replication subsets of the National Health and Nutrition Examination Surveys (NHANES).
-
-#### Results:
-We identified and replicated 106 potential environmental risk factors for anemia. In children, serum iron was associated with folic acid supplements and vitamin A supplements. Multiple polychlorinated biphenyls (PCBs) and γ-hexachlorocyclohexane were also associated with hemoglobin concentration and red blood cell folate concentration for children from the discovery analysis (1999–2002). As expected, serum iron was the top exposure associated with general anemia for adults. Cadmium was associated with adult hemoglobin levels, as were vitamin Bs, micronutrients, smoking, and alcohol consumption. Further, decreased level of multiple vitamins, including vitamin A, vitamin Es and multiple vitamin Bs, were associated with anemia in adults. Use of tobacco and alcohol was also found to be associated with red blood cell folate and serum iron levels. 
-
-#### Discussion:
-This is the first EWAS of anemia, providing insights into the environmental etiology of anemia risk in children and adults. These results may lead to the development of public health recommendations to mitigate anemia risk factors. 
-
-### Citation
-Jiayan Zhou, Nicole Palmiero, Kristin Passero, John R McGuigan, Tomás González Zarzar, K. Sandeep Prabhu, and Molly A. Hall. (2022) Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys. *In preparation.*
+Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data. *Pac Symp Biocomput* 25:659–670; [doi:10.1142/9789811215636_0058](https://www.worldscientific.com/doi/10.1142/9789811215636_0058).
