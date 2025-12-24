@@ -1,4 +1,4 @@
-# Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys (EWAS Anemia)
+# EWAS Anemia: Environment-Wide Association Studies of Anemia in the NHANES
 
 These data files support the findings in 'Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys'.
 
