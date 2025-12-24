@@ -9,29 +9,29 @@ We performed the first environment-wide association studies (EWAS) of anemia usi
 - **In children**: Serum iron associated with folic acid and vitamin A supplements; multiple PCBs and γ-hexachlorocyclohexane linked to hemoglobin and RBC folate levels
 - **In adults**: Serum iron was the top risk factor; cadmium, vitamin Bs, micronutrients, smoking, and alcohol consumption associated with hemoglobin levels; decreased vitamins A, E, and Bs linked to anemia
 
-These results provide insights into the environmental etiology of anemia and may inform public health recommendations to mitigate risk factors.
+These results offer insights into the environmental etiology of anemia and may inform public health recommendations aimed at mitigating risk factors.
 
 ## Data and Analysis
 ### 1. National Health and Nutrition Examination Survey (NHANES)
-The [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) are conducted by the Centers for Disease Control and Prevention (CDC) to evaluate the health and nutritional status of the US population ([Cousins 2014](); [Le 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166635); [McFarlane et al. 2008](https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0272638608000073?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0272638608000073%3Fshowall%3Dtrue&referrer=https:%2F%2Fpubmed.ncbi.nlm.nih.gov%2F); [Patel et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2747286/)). The goal of NHANES is to identify risk factors for prevalent diseases to aid in developing effective public health policies. The demographic information, dietary recalls, health surveys, toxin exposures, and laboratory measurements of the participants were collected by interviews and physical examinations at home or at a mobile exam center (Cousins 2014). The current study including 41,474 individuals and 1,191 variables before quality control (QC) from survey years 1999–2006 was pulled from the unified dataset ([Patel et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010746)).
+The [NHANES](https://www.cdc.gov/nchs/nhanes/index.htm) are conducted by the Centers for Disease Control and Prevention (CDC) to evaluate the health and nutritional status of the US population ([Cousins 2014](); [Le 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166635); [McFarlane et al. 2008](https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S0272638608000073?returnurl=https:%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0272638608000073%3Fshowall%3Dtrue&referrer=https:%2F%2Fpubmed.ncbi.nlm.nih.gov%2F); [Patel et al. 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2747286/)). The goal of NHANES is to identify risk factors for prevalent diseases to aid in developing effective public health policies. The demographic information, dietary recalls, health surveys, toxin exposures, and laboratory measurements of the participants were collected by interviews and physical examinations at home or at a mobile exam center (Cousins 2014). The current study, including 41,474 individuals and 1,191 variables before quality control (QC) from survey years 1999–2006, was pulled from the unified dataset ([Patel et al. 2016](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0010746)).
 
 ### 2. Requirements
-This analysis requires to use [R](https://www.r-project.org/) and [qulity-control (QC) algorithm](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full)/[CLARITE package in R](https://github.com/HallLab/clarite) for Environment-wide association study (EWAS) that was pulished before. All other required packages were listed in the main code files. The [unified NHANES dataset](https://pic-sure.org/products/nhanes-unified-dataset) for year 1999-2006 are required. 
+This analysis requires to use of [R](https://www.r-project.org/) and [quality-control (QC) algorithm](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full)/[CLARITE package in R](https://github.com/HallLab/clarite) for an Environment-wide association study (EWAS) that was published before. All other required packages were listed in the main code files. The [unified NHANES dataset](https://pic-sure.org/products/nhanes-unified-dataset) for years 1999-2006 is required. 
 
 ### 3. Codes
-It contains a [R Markdown file](Codes/EWAS_Anemia_Notebook.Rmd) to perform all the analyses and two seperate R files for generating the [Mahanttan](Codes/ManhattanPlots_Revised.R) and [Hudson](Codes/HudsonPlots_Revised.R) Plots based on the results. The raw files for plotting the network plot were also stored in the file named Cytoscape for Network which can be read by using [Cytoscape](https://cytoscape.org/).
+It contains a [R Markdown file](Codes/EWAS_Anemia_Notebook.Rmd) to perform all the analyses and two separate R files for generating the [Manhattan](Codes/ManhattanPlots_Revised.R) and [Hudson](Codes/HudsonPlots_Revised.R) Plots based on the results. The raw files for plotting the network plot were also stored in the file named Cytoscape for Network, which can be read by using [Cytoscape](https://cytoscape.org/).
 
 ### 4. Data
-All data, including [main table](Data/Main%20Table/MainTable_keepvar_over18.tsv), download SAS files, files for survery weight and plots, and files for variable desciptions, except the original unified data (more than 100 MB) were uploaded into Data folder. 
+All data, including [main table](Data/Main%20Table/MainTable_keepvar_over18.tsv), download SAS files, files for survey weight and plots, and files for variable descriptions, except the original unified data (more than 100 MB), were uploaded into the Data folder. 
 
 ### 5. Plots
-It contains 1. the original plots that were generated by using eman function in CALRITE package, 2. the labeled plots with annotations for the significant results, and 3. modified Manhattan plot and Hudson plots for the manuscripts. 
+It contains 1. the original plots that were generated by using the eman function in the CALRITE package, 2. the labeled plots with annotations for the significant results, and 3. modified Manhattan plot and Hudson plots for the manuscripts. 
 
 ### 6. R
-It contains two modified R scripts for stroing only the modified functions to plot the modified [Manhattan](R/modifiedeman.R) and [Hudson](R/modifiedhudson.R) Plots. 
+It contains two modified R scripts for storing only the modified functions to plot the modified [Manhattan](R/modifiedeman.R) and [Hudson](R/modifiedhudson.R) Plots. 
 
 ### 7. Results
-All the results were uploaded to here for each EWAS.
+All the results were uploaded here for each EWAS.
 
 ## Citation
 ### EWAS Anemia
@@ -86,7 +86,7 @@ Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phen
 
 @inproceedings{passero2020phenome,
   title={Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data},
-  author={Passero, Kristin and He, Xinyuan and Zhou, Jiayan and Mueller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
+  author={Passero, Kristin and He, Xi and Zhou, Jiayan and Mueller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
   booktitle={Pacific Symposium on Biocomputing},
   volume={25},
   pages={659--670},
