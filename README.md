@@ -52,12 +52,49 @@ Zhou, J., Palmiero, N., Passero, K., McGuigan, J. R., González Zarzar, T., Prab
 }
 ```
 
-### CLARITE
+### CLARITE Package and its applications for GxG and PheWAS
 Lucas AM, Palmiero NE, McGuigan J, Passero K, Zhou J, Orie D, et al. 2019. CLARITE Facilitates the Quality Control and Analysis Process for EWAS of Metabolic-Related Traits. *Front Genet* 10; [doi:10.3389/fgene.2019.01240](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full).
 
 Zhou J, Passero K, Palmiero NE, Müller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Investigation of gene-gene interactions in cardiac traits and serum fatty acid levels in the LURIC Health Study. *PLoS One* 15:e0238304; [doi:10.1371/journal.pone.0238304](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0238304).
 
 Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data. *Pac Symp Biocomput* 25:659–670; [doi:10.1142/9789811215636_0058](https://www.worldscientific.com/doi/10.1142/9789811215636_0058).
+
+**BibTeX:**
+```bibtex
+@article{lucas2019clarite,
+  title={CLARITE Facilitates the Quality Control and Analysis Process for EWAS of Metabolic-Related Traits},
+  author={Lucas, Anastasia M and Palmiero, Nicole E and McGuigan, John and Passero, Kristin and Zhou, Jiayan and Orie, Deven and others},
+  journal={Frontiers in Genetics},
+  volume={10},
+  pages={1240},
+  year={2019},
+  publisher={Frontiers Media SA},
+  doi={10.3389/fgene.2019.01240}
+}
+
+@article{zhou2020investigation,
+  title={Investigation of gene-gene interactions in cardiac traits and serum fatty acid levels in the LURIC Health Study},
+  author={Zhou, Jiayan and Passero, Kristin and Palmiero, Nicole E and M{\"u}ller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
+  journal={PLoS One},
+  volume={15},
+  number={9},
+  pages={e0238304},
+  year={2020},
+  publisher={Public Library of Science San Francisco, CA USA},
+  doi={10.1371/journal.pone.0238304}
+}
+
+@inproceedings{passero2020phenome,
+  title={Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data},
+  author={Passero, Kristin and He, Xinyuan and Zhou, Jiayan and Mueller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
+  booktitle={Pacific Symposium on Biocomputing},
+  volume={25},
+  pages={659--670},
+  year={2020},
+  organization={World Scientific},
+  doi={10.1142/9789811215636_0058}
+}
+```
 
 ### License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
