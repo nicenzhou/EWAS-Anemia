@@ -28,7 +28,22 @@ All the results were uploaded to here for each EWAS.
 
 ## Citation
 ### EWAS Anemia
-Jiayan Zhou, Nicole Palmiero, Kristin Passero, John R McGuigan, Tomás González Zarzar, K. Sandeep Prabhu, and Molly A. Hall. 2022. Environment-Wide Association Studies of Anemia in the National Health and Nutrition Examination Surveys. *In preparation.*
+## Citation
+
+Zhou, J., Palmiero, N., Passero, K., McGuigan, J. R., González Zarzar, T., Prabhu, K. S., & Hall, M. A. (2023). Environment-wide association studies of anemia in the National Health and Nutrition Examination Surveys. *medRxiv*, 2023.06.02.23290861. https://doi.org/10.1101/2023.06.02.23290861
+
+**BibTeX:**
+```bibtex
+@article{zhou2023environment,
+  title={Environment-wide association studies of anemia in the National Health and Nutrition Examination Surveys},
+  author={Zhou, Jiayan and Palmiero, Nicole and Passero, Kristin and McGuigan, John R and Gonz{\'a}lez Zarzar, Tom{\'a}s and Prabhu, K Sandeep and Hall, Molly A},
+  journal={medRxiv},
+  pages={2023--06},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory Press},
+  doi={10.1101/2023.06.02.23290861}
+}
+```
 
 ### CLARITE
 Lucas AM, Palmiero NE, McGuigan J, Passero K, Zhou J, Orie D, et al. 2019. CLARITE Facilitates the Quality Control and Analysis Process for EWAS of Metabolic-Related Traits. *Front Genet* 10; [doi:10.3389/fgene.2019.01240](https://www.frontiersin.org/articles/10.3389/fgene.2019.01240/full).
