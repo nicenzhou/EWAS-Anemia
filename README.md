@@ -51,3 +51,7 @@ Lucas AM, Palmiero NE, McGuigan J, Passero K, Zhou J, Orie D, et al. 2019. CLARI
 Zhou J, Passero K, Palmiero NE, Müller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Investigation of gene-gene interactions in cardiac traits and serum fatty acid levels in the LURIC Health Study. *PLoS One* 15:e0238304; [doi:10.1371/journal.pone.0238304](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0238304).
 
 Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data. *Pac Symp Biocomput* 25:659–670; [doi:10.1142/9789811215636_0058](https://www.worldscientific.com/doi/10.1142/9789811215636_0058).
+
+### License
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![GPL Logo](https://www.gnu.org/graphics/gplv3-88x31.png)
