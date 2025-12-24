@@ -54,4 +54,5 @@ Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phen
 
 ### License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-![GPL Logo](https://www.gnu.org/graphics/gplv3-88x31.png)
+
+![GPL Logo]([https://www.gnu.org/graphics/gplv3-88x31.png](https://www.gnu.org/graphics/gplv3-88x31.png))
