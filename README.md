@@ -72,7 +72,7 @@ Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phen
   doi={10.3389/fgene.2019.01240}
 }
 
-@article{zhou2020investigation,
+@article{zhou2020gxgluric,
   title={Investigation of gene-gene interactions in cardiac traits and serum fatty acid levels in the LURIC Health Study},
   author={Zhou, Jiayan and Passero, Kristin and Palmiero, Nicole E and M{\"u}ller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
   journal={PLoS One},
@@ -84,7 +84,7 @@ Passero K, He X, Zhou J, Mueller-Myhsok B, Kleber ME, Maerz W, et al. 2020. Phen
   doi={10.1371/journal.pone.0238304}
 }
 
-@inproceedings{passero2020phenome,
+@inproceedings{passero2020phewasluric,
   title={Phenome-wide association studies on cardiovascular health and fatty acids considering phenotype quality control practices for epidemiological data},
   author={Passero, Kristin and He, Xi and Zhou, Jiayan and Mueller-Myhsok, Bertram and Kleber, Marcus E and Maerz, Winfried and others},
   booktitle={Pacific Symposium on Biocomputing},
